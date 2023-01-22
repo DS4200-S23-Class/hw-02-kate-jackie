@@ -1,0 +1,28 @@
+body {
+	font-family: Arial;
+}
+
+table, tr, th, td {
+	table-layout: fixed;
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+tr {
+	background-color: lightblue;
+	text-align: left;
+
+}
+
+
+td {
+	background-color: white;
+	width: 25%;
+}
+
+.center {
+	text-align: center;
+}
+
+
