@@ -21,8 +21,53 @@ td {
 	width: 25%;
 }
 
+
 .center {
 	text-align: center;
+	color: black;
 }
 
+.container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
 
+.column {
+	flex: 50%;
+}
+
+.img {
+	width: 100%;
+}
+
+.indent {
+	padding-left: 25px;
+	font-style: italic;
+}
+
+.rectangle {
+	fill: lightsteelblue;
+	stroke: pink;
+	stroke-width: 8;
+	opacity: 0.5;
+}
+
+.rectangle:hover {
+	fill: lawngreen;
+	stroke: yellow;
+}
+
+.circle {
+	fill: mediumslateblue;
+	opacity: 0.5;
+}
+
+.circle:hover {
+	stroke: pink;
+	stroke-width: 8;
+}
+
+#task-abstraction {
+	color: indigo;
+}

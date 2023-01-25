@@ -9,6 +9,8 @@
 
 
 <body>
+
+    <!-- data abstraction table -->
     <div id="data-abstraction">
         <div class="info">
             <h1 class="center">Dataset Types</h1>
@@ -48,6 +50,8 @@
 
             </table>
         </div>
+
+        <!-- data types for data given -->
         <div class="info">
             <h1 class="center">Data Types</h1>
             <h2>UFO</h2>
@@ -99,14 +103,67 @@
                     </ul>
             </ul>
         </div>
-
     </div>
+
+    <!-- task abstraction for given visualizations -->
     <div id="task-abstraction">
         <h1 class="center">Task Abstraction</h1>
-        
-
+        <div class="container">
+            <div class="column">
+                <img src=/Users/katelanman/Desktop/DS4200/homeworks/hw-02-kate-jackie/img/vis1.png class="img">
+                <p>High-level: Consume --> Present</p>
+                <p class="indent">Showing that the past 3 days have been warmer than average.</p>
+                <p>Medium-level: Lookup</p>
+                <p class="indent">Comparing the temperature from the past three days to other temperatures around that time (targets). Location is highlighted in red.</p>
+                <p>Low-level: Compare</p>
+                <p class="indent">Comparing recent temperature to temperature from past years around the same time.</p>
+            </div>
+            <div class="column">
+                <img src=/Users/katelanman/Desktop/DS4200/homeworks/hw-02-kate-jackie/img/vis2.png class="img">
+                <p>High-level: Consume --> Discover</p>
+                <p class="indent">Revealing trends that might not have been obvious without the visualization.</p>
+                <p>Medium-level: Explore</p>
+                <p class="indent">Looking at general trends in temperatures across the whole graph.</p>
+                <p>Low-level: Compare</p>
+                <p class="indent">Comparing the trends in outlier temperatures in Seattle vs. Portland.</p>
+            </div>
+        </div>
     </div>
 
+    <!-- svg objects for bottom-->
+    <div id="decoration">
+        <div class="container">
+            <svg>
+                <circle cx="75" cy="75" r="40" class="circle">
+            </svg>
+            <svg>
+                    <rect width="150" height="150" class="rectangle">
+            </svg>
+            <svg>
+                <circle cx="75" cy="75" r="40" class="circle">
+            </svg>
+            <svg>
+                    <rect width="150" height="150" class="rectangle">
+            </svg>
+            <svg>
+                <circle cx="75" cy="75" r="40" class="circle">
+            </svg>
+        </div>
+    </div>
+
+    <!-- citations -->
+    <h2 class="center">Acknowledgments</h2>
+    <div>
+        <ul>
+            <li>https://homepage.cs.uri.edu/faculty/wolfe/tutorials/csc101/HTML/topic4.html</li>
+            <li>https://blog.hubspot.com/website/how-to-indent-css#:~:text=The%20CSS%20text%2Dindent%20property,be%20intended%20to%20the%20left.</li>
+            <li>https://www.w3schools.com/css/css_font_size.asp</li>
+            <li>https://css-tricks.com/change-color-of-svg-on-hover/</li>
+            <li>https://www.w3schools.com/graphics/svg_circle.asp</li>
+            <li>https://www.w3schools.com/graphics/svg_rect.asp</li>
+            <li>https://stackoverflow.com/questions/19157122/css-change-fill-color-on-hover-svg-path</li>
+        </ul>
+    </div>
 
 </body>
 
